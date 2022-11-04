@@ -4,6 +4,7 @@ body{
 } /*sets color of background and text*/
 
 header{
+    margin-top: 4em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +46,8 @@ ul > li{
 }
 
 ul > li > a{
-    color:#0c7256
+    color:#0c7256;
+    text-decoration: none;
 }
 
 
