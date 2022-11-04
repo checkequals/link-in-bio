@@ -45,7 +45,7 @@ ul > li{
     text-align: center;
 }
 
-ul > li > a{
+ul > li > a:hover, a:visited, a:link a:visited{
     color:#0c7256;
     text-decoration: none;
 }
