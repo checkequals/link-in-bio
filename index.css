@@ -45,9 +45,10 @@ ul > li{
     text-align: center;
 }
 
-ul > li > a:hover, a:visited, a:link a:visited{
+ul > li > a{
     color:#0c7256;
     text-decoration: none;
+    border-bottom-style: none;
 }
 
 
