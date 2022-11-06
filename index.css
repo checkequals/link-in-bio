@@ -1,54 +1,91 @@
 body{
     background-color: rgb(226,220,234);
     color: #0c7256;
-} /*sets color of background and text*/
+} /* sets color of background and text */
 
 header{
     margin-top: 4em;
     display: flex;
     flex-direction: column;
     align-items: center;
-} /*uses flexbox to center header*/
+} /* uses flexbox to center header */
 
-/*body {
+/* body {
     display: flex;
     flex-direction: column;
     align-items: center;
-} /*uses flexbox to center body--unused since ul selector*/
+} /* uses flexbox to center body--unused since ul selector */
 
 header > img{
     border-radius: 100%;
     border: 1px solid black;
     box-shadow:  0 .5em 1.5em #935185;
-}/*nested selector to style only the 
-    image in the header with a circular border*/
+}
 
-ul{
+
+.container {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
+a{
+    flex: 1;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    line-height: 3;
+    color: #0c7256;
+    border-radius: 1.05em;
+}
+
+
+a:link,
+a:visited{
+    background-color: #ae71a2;
+    box-shadow: 0 1em 1.5em #935185;
+}
+a:focus,
+a:hover{
+    background-color: #c884bb;
+    box-shadow: 0 1em 1.5em #935185;
+}
+a:active{
+    background-color: #3fbd8f;
+}
+/* nested selector to style only the 
+    image in the header with a circular border */
+
+/* ul{
     box-sizing: border-box;
     list-style: none;
-    /*overrides default link style adding a box to surround
-    link text*/
     margin: 0 auto;
-    /*margin on top and bottom = 0. auto as second property centers. */
     padding: 2em;
-    /*em are relative units used for responsive design*/
 }
-ul > li{
-    background-color: #ae71a2
-    ;
+    /* overrides default link style adding a box to surround
+    link text */
+    /* margin on top and bottom = 0. auto as second property centers. */
+    /* em are relative units used for responsive design */
+
+/*ul > li{
+    background-color: #ae71a2;
     border-radius: 1.05em;
-    /*adds rounded border with a relative measure*/
     padding: 1em;
-    /*how are the text is from the margin of the border*/
     margin: 1em auto;
     box-shadow:  0 1em 1.5em #935185;
     text-align: center;
 }
+    /* sets list obj background color */
+    /* adds rounded border with a relative measure */
+    /* adds padding and a drop shadow for the box of each list obj */
+    /* how are the text is from the margin of the border */
 
-ul > li > a{
+/* ul > li > a{
     color:#0c7256;
     text-decoration: none;
     border-bottom-style: none;
-}
+} */
 
 
+ 
